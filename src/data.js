@@ -19,18 +19,7 @@ import Apartment4Lg from './assets/img/apartments/a4lg.png';
 import Apartment5Lg from './assets/img/apartments/a5lg.png';
 import Apartment6Lg from './assets/img/apartments/a6lg.png';
 
-import Agent1 from './assets/img/agents/agent1.png';
 import Agent2 from './assets/img/agents/agent2.png';
-import Agent3 from './assets/img/agents/agent3.png';
-import Agent4 from './assets/img/agents/agent4.png';
-import Agent5 from './assets/img/agents/agent5.png';
-import Agent6 from './assets/img/agents/agent6.png';
-import Agent7 from './assets/img/agents/agent7.png';
-import Agent8 from './assets/img/agents/agent8.png';
-import Agent9 from './assets/img/agents/agent9.png';
-import Agent10 from './assets/img/agents/agent10.png';
-import Agent11 from './assets/img/agents/agent11.png';
-import Agent12 from './assets/img/agents/agent12.png';
 
 export const housesData = [
   {
@@ -40,17 +29,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House1Lg,
-    country: 'United States',
-    address: '7240C Argyle St. Lawndale, CA 90260',
+    country: 'Gjilan',
+    address: '7240C Argyle St. Lawndale',
     bedrooms: '6',
     bathrooms: '3',
     surface: '420',
     year: '2016',
     price: '110000',
     agent: {
-      image: Agent1,
-      name: 'Patricia Tullert',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -60,8 +49,8 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House2Lg,
-    country: 'Canada',
-    address: '798 Talbot St. Bridgewater, NJ 08807',
+    country: 'Gjilan',
+    address: '798 Talbot St. Bridgewater',
     bedrooms: '6',
     bathrooms: '3',
     surface: '420',
@@ -70,7 +59,7 @@ export const housesData = [
     agent: {
       image: Agent2,
       name: 'Daryl Hawker',
-      phone: '0123 456 78910',
+      phone: '044 111 111',
     },
   },
   {
@@ -80,17 +69,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House3Lg,
-    country: 'United States',
-    address: '2 Glen Creek St. Alexandria, VA 22304',
+    country: 'Prizren',
+    address: '2 Glen Creek St. Alexandria',
     bedrooms: '6',
     bathrooms: '3',
     surface: '320',
     year: '2016',
     price: '170000',
     agent: {
-      image: Agent3,
-      name: 'Amado Smith',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -100,17 +89,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House4Lg,
-    country: 'Canada',
-    address: '84 Woodland St. Cocoa, FL 32927',
+    country: 'Mitrovice',
+    address: '84 Woodland St. Cocoa',
     bedrooms: '6',
     bathrooms: '3',
     surface: '400',
     year: '2016',
     price: '200000',
     agent: {
-      image: Agent4,
-      name: 'Kaitlyn Gonzalez',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -120,17 +109,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House5Lg,
-    country: 'United States',
-    address: '28 Westport Dr. Warminster, PA 18974',
+    country: 'Prishtine',
+    address: '28 Westport Dr. Warminster',
     bedrooms: '5',
     bathrooms: '3',
     surface: '420',
     year: '2015',
     price: '210000',
     agent: {
-      image: Agent5,
-      name: 'Grover Robinson',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -140,17 +129,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House6Lg,
-    country: 'Canada',
-    address: '32 Pawnee Street Butte, MT 59701',
+    country: 'Prishtine',
+    address: '32 Pawnee Street Butte',
     bedrooms: '6',
     bathrooms: '3',
     surface: '620',
     year: '2014',
     price: '220000',
     agent: {
-      image: Agent6,
-      name: 'Karen Sorensen',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -160,17 +149,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment1Lg,
-    country: 'Canada',
-    address: '32 Pawnee Street Butte, MT 59701',
+    country: 'Dardane',
+    address: '32 Pawnee Street Butte',
     bedrooms: '2',
     bathrooms: '1',
     surface: '120',
     year: '2012',
     price: '20000',
     agent: {
-      image: Agent7,
-      name: 'Jawhar Shamil Naser',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -180,17 +169,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment2Lg,
-    country: 'United States',
-    address: '28 Westport Dr. Warminster, PA 18974',
+    country: 'Dardane',
+    address: '28 Westport Dr. Warminster',
     bedrooms: '3',
     bathrooms: '1',
     surface: '100',
     year: '2011',
     price: '30000',
     agent: {
-      image: Agent8,
-      name: 'Juana Douglass',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -200,17 +189,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment3Lg,
-    country: 'United States',
-    address: '84 Woodland St. Cocoa, FL 32927',
+    country: 'Lipjan',
+    address: '84 Woodland St. Cocoa',
     bedrooms: '2',
     bathrooms: '1',
     surface: '110',
     year: '2011',
     price: '40000',
     agent: {
-      image: Agent9,
-      name: 'Jerry Schenck',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -220,17 +209,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House7Lg,
-    country: 'Canada',
-    address: '7240C Argyle St. Lawndale, CA 90260',
+    country: 'Lipjan',
+    address: '7240C Argyle St. Lawndale',
     bedrooms: '5',
     bathrooms: '3',
     surface: '320',
     year: '2015',
     price: '117000',
     agent: {
-      image: Agent10,
-      name: 'Vera Levesque',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -240,17 +229,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House8Lg,
-    country: 'Canada',
-    address: '798 Talbot St. Bridgewater, NJ 08807',
+    country: 'Gjilan',
+    address: '798 Talbot St. Bridgewater',
     bedrooms: '7',
     bathrooms: '2',
     surface: '220',
     year: '2019',
     price: '145000',
     agent: {
-      image: Agent11,
-      name: 'Sofia Gomes',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -260,17 +249,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House9Lg,
-    country: 'United States',
-    address: '2 Glen Creek St. Alexandria, VA 22304',
+    country: 'Prishtine',
+    address: '2 Glen Creek St. Alexandria',
     bedrooms: '4',
     bathrooms: '4',
     surface: '460',
     year: '2015',
     price: '139000',
     agent: {
-      image: Agent12,
-      name: 'Raymond Hood',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -280,17 +269,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House10Lg,
-    country: 'Canada',
-    address: '84 Woodland St. Cocoa, FL 32927',
+    country: 'Dardane',
+    address: '84 Woodland St. Cocoa',
     bedrooms: '5',
     bathrooms: '2',
     surface: '520',
     year: '2014',
     price: '180000',
     agent: {
-      image: Agent1,
-      name: 'Patricia Tullert',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -300,8 +289,8 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House11Lg,
-    country: 'United States',
-    address: '28 Westport Dr. Warminster, PA 18974',
+    country: 'Dardane',
+    address: '28 Westport Dr. Warminster',
     bedrooms: '5',
     bathrooms: '2',
     surface: '320',
@@ -310,7 +299,7 @@ export const housesData = [
     agent: {
       image: Agent2,
       name: 'Daryl Hawker',
-      phone: '0123 456 78910',
+      phone: '044 111 111',
     },
   },
   {
@@ -320,17 +309,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House12Lg,
-    country: 'Canada',
-    address: '32 Pawnee Street Butte, MT 59701',
+    country: 'Lipjan',
+    address: '32 Pawnee Street Butte',
     bedrooms: '4',
     bathrooms: '3',
     surface: '520',
     year: '2013',
     price: '221000',
     agent: {
-      image: Agent3,
-      name: 'Amado Smith',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -340,17 +329,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment4Lg,
-    country: 'Canada',
-    address: '32 Pawnee Street Butte, MT 59701',
+    country: 'Dardane',
+    address: '32 Pawnee Street Butter',
     bedrooms: '2',
     bathrooms: '1',
     surface: '130',
     year: '2011',
     price: '21000',
     agent: {
-      image: Agent4,
-      name: 'Kaitlyn Gonzalez',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -360,17 +349,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment5Lg,
-    country: 'United States',
-    address: '28 Westport Dr. Warminster, PA 18974',
+    country: 'Prishtine',
+    address: '28 Westport Dr. Warminster',
     bedrooms: '3',
     bathrooms: '1',
     surface: '100',
     year: '2012',
     price: '32000',
     agent: {
-      image: Agent5,
-      name: 'Grover Robinson',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
   {
@@ -380,17 +369,17 @@ export const housesData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment6Lg,
-    country: 'Canada',
-    address: '84 Woodland St. Cocoa, FL 32927',
+    country: 'Gjilan',
+    address: '84 Woodland St. Cocoa',
     bedrooms: '3',
     bathrooms: '1',
     surface: '120',
     year: '2010',
     price: '38000',
     agent: {
-      image: Agent6,
-      name: 'Karen Sorensen',
-      phone: '0123 456 78910',
+      image: Agent2,
+      name: 'Daryl Hawker',
+      phone: '044 111 111',
     },
   },
 ];

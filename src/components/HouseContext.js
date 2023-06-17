@@ -15,7 +15,7 @@ const HouseContextProvider = ({children}) => {
     const allCountries = houses.map((house) => {
       return house.country
     })
-    const uniqueCountries = ['Location (any) ' , ...new Set(allCountries)]
+    const uniqueCountries = ['Location' , ...new Set(allCountries)]
 
     setCountries(uniqueCountries)
   }, [])
@@ -24,7 +24,7 @@ const HouseContextProvider = ({children}) => {
     const allProperties = houses.map((house) => {
       return house.type
     })
-    const uniqueProperties = ['Property (any)' , ...new Set(allProperties)]
+    const uniqueProperties = ['Property' , ...new Set(allProperties)]
 
     setProperties(uniqueProperties)
   }, [])

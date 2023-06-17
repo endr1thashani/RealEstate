@@ -6,7 +6,7 @@ import {useParams} from 'react-router-dom'
 
 import {BiBed , BiBath , BiArea} from 'react-icons/bi'
 
-import {link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 const PropertyDetails = () => {
 
@@ -29,11 +29,61 @@ const PropertyDetails = () => {
         </div>
         <div className='text-3xl font-semibold text-violet-600'>{house.price}€</div>
         </div>
-        <div>
-          <div>
-            <div>
-              <img src={house.image} alt='house image'/>
+        <div className='flex flex-col items-start gap-8 lg:flex-row'>
+          <div className='max-w-[768px]'>
+            <div className='mb-8 '>
+              <img src={house.image} alt='house'/>
             </div>
+            <div className='flex gap-x-6 text-violet-600 mb-6'>
+              <div className='flex items-center gap-x-2'>
+                <BiBed className='text-2xl'/>
+                <div>{house.bedrooms}</div>
+              </div>
+              <div className='flex items-center gap-x-2'>
+                <BiBath className='text-2xl'/>
+                <div>{house.bathrooms}</div>
+              </div>
+              <div className='flex items-center gap-x-2'>
+                <BiArea className='text-2xl'/>
+                <div>{house.surface}</div>
+              </div>
+            </div>
+            <div>{house.description}</div>
+          </div>
+          <div className='flex-1 bg-white w-full mb-8 border border-gray-300 rounded-lg px-6 py-8'>
+            <div className='flex items-center gap-x-4 mb-8 '>
+              <div className='w-20 h-20 p-1 border border-gray-300 rounded-full'>
+                <img src={house.agent.image} alt='agent'/>
+              </div>
+              <div>
+                <div className='font-bold text-lg'>{house.agent.name}</div>
+                <Link to='' className='text-violet-700 text-sm'>View Listing</Link>
+              </div>
+            </div>
+            <form className='flex flex-col gap-3'>
+            <input className='border border-gray-300 focus:border-violet-500 outline-none rounded w-full px-4 h-11 mb-2 text-sm'
+            type='text' 
+            placeholder='Name'
+            required/>
+            <input className='border border-gray-300 focus:border-violet-500 outline-none rounded w-full px-4 h-11 mb-2 text-sm' 
+            type='email' 
+            placeholder='Email'
+            required/>
+            <input className='border border-gray-300 focus:border-violet-500 outline-none rounded w-full px-4 h-11 mb-2 text-sm' 
+            type='tel' 
+            placeholder='Number'
+            required/>
+            <textarea className='border border-gray-300 focus:border-violet-500 outline-none resize-none rounded w-full p-4 h-36 text-sm mb-2'
+            placeholder='Message' required></textarea>
+            <div className='flex gap-2'>
+              <button className='bg-violet-500 hover:bg-violet-700 text-white rounded p-4 w-full transition text-sm'>
+                Message me
+              </button>
+              <button className='border border-violet-800 text-violet-700 hover:border-violet-500 hover:text-violet-500  rounded p-4 w-full transition text-sm'>
+                Call me
+              </button>
+            </div>
+          </form>
           </div>
         </div>
       </div>
